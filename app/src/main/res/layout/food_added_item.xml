@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="4dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alwaysDrawnWithCache="false"
+        android:background="#D0DD97"
+        android:backgroundTintMode="add"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/foodTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/news_cycle"
+                android:text="Jedzenie"
+                android:textColor="#658361"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/kcalTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/news_cycle"
+                android:text="Kalorie"
+                android:textColor="#658361"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/deleteItemButton"
+            android:layout_width="79dp"
+            android:layout_height="match_parent"
+            android:background="#D0DD97"
+            app:srcCompat="@drawable/tabler_trash"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "29559042374",
+    "project_id": "calco1",
+    "storage_bucket": "calco1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29559042374:android:4906753cb32af89f8e3547",
+        "android_client_info": {
+          "package_name": "com.example.calco1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29559042374-bfj1bsgohquk3drh2e96cn01c4m2cmk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5h-U4LW-ioLnEwi87Xj9X3Sbc1GR3JQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29559042374-bfj1bsgohquk3drh2e96cn01c4m2cmk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
